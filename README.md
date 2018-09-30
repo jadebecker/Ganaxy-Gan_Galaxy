@@ -32,23 +32,23 @@ I tried to improve my code a few times.
 The first output are in 'Ganaxy Image 1' folder.
 Here's an example:
 ![Screenshot](https://github.com/jadebecker/Ganaxy-Gan_Galaxy/blob/master/ganaxy_20180718_193122%252Fgenim_29.png)
-![Screenshot](ganaxy_20180718_193122%2Fgenim_99.png)
+![Screenshot](https://github.com/jadebecker/Ganaxy-Gan_Galaxy/blob/master/ganaxy_20180718_193122%252Fgenim_99.png)
 
 The second output are in 'Ganaxy Image 2' folder.
 Here's an example:
-![Screenshot](ganaxy_20180718_194243%2Fgenim_14.png)
+![Screenshot](https://github.com/jadebecker/Ganaxy-Gan_Galaxy/blob/master/ganaxy_20180718_194243%252Fgenim_14.png)
 
 The third output are in 'Ganaxy Image 3' folder.
 Here's an example:
-![Screenshot](ganaxy_20180718_202608%2Fgenim_36.png)
+![Screenshot](https://github.com/jadebecker/Ganaxy-Gan_Galaxy/blob/master/ganaxy_20180718_202608%252Fgenim_36.png)
 
 The fourth output are in 'Ganaxy Image 4' folder.
 Here's an example:
-![Screenshot](ganaxy_20180719_072658%2Fgenim_20.png)
+![Screenshot](https://github.com/jadebecker/Ganaxy-Gan_Galaxy/blob/master/ganaxy_20180719_072658%252Fgenim_20.png)
 
 The fifth output (for this code) are in 'Ganaxy Image 5' folder.
 Here's an example:
-![Screenshot](ganaxy_20180719_111023%2Fgenim_26.png)
-![Screenshot](ganaxy_20180719_111023%2Fgenim_99.png)
+![Screenshot](https://github.com/jadebecker/Ganaxy-Gan_Galaxy/blob/master/ganaxy_20180719_111023%252Fgenim_26.png)
+![Screenshot](https://github.com/jadebecker/Ganaxy-Gan_Galaxy/blob/master/ganaxy_20180719_111023%252Fgenim_99.png)
 
 Though it's not what I wanted, I really like the weird green and pink galaxies !
