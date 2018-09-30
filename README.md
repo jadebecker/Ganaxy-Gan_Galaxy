@@ -31,7 +31,7 @@ I tried to improve my code a few times.
 
 The first output are in 'Ganaxy Image 1' folder.
 Here's an example:
-![Screenshot](ganaxy_20180718_193122%2Fgenim_29.png/raw=True)
+![Screenshot](https://github.com/jadebecker/Ganaxy-Gan_Galaxy/blob/master/ganaxy_20180718_193122%252Fgenim_29.png)
 ![Screenshot](ganaxy_20180718_193122%2Fgenim_99.png)
 
 The second output are in 'Ganaxy Image 2' folder.
