@@ -11,9 +11,8 @@ from keras.datasets import mnist
 import PIL
 import pickle
 from tensorflow.python.lib.io import file_io
-from glob import glob
 
-################### parse arguments ##################################### 
+################### parse arguments ( /!\ for GCloud) ##################################### 
 parser = argparse.ArgumentParser()
 parser.add_argument( '--job-dir')
 parser.add_argument('--img_arr_path', metavar='imgarr', type=str,
@@ -23,7 +22,7 @@ img_arr_path = argsdeouf.img_arr_path
 job_dir = argsdeouf.job_dir
 
 
-################### load data ##################################### 
+################### load data ( /!\ for GCloud) ##################################### 
 
 X_train = []
 
@@ -112,6 +111,7 @@ print("noise : " +str(noise))
 generated_images = generator_model.predict(noise)
 
 pklname = "images.pkl"
+# ( /!\ for GCloud)
 pickle.dump(generated_images, open(pklname, "wb"), protocol=4)
 with file_io.FileIO(pklname, mode='rb') as input_file:
 	with file_io.FileIO(job_dir + "/" +pklname, mode='w+') as output_file:
@@ -125,12 +125,14 @@ for image in generated_images:
 	img = PIL.Image.fromarray(img,"RGB")
 	imname = "genim_"+str(i)+".png"
 	img.save(imname, "PNG")
+	#( /!\ for GCloud)
 	with file_io.FileIO(imname, mode='rb') as input_file:
 		with file_io.FileIO(job_dir + "/" +imname, mode='w+') as output_file:
 			output_file.write(input_file.read())
 	i+=1
 
 generator_model.save("genmod.h5")
+#( /!\ for GCloud)
 with file_io.FileIO("genmod.h5", mode='rb') as input_file:
 		with file_io.FileIO(job_dir + "/" + "genmod.h5", mode='w+') as output_file:
 			output_file.write(input_file.read())
