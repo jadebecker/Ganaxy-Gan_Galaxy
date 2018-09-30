@@ -29,23 +29,10 @@ X_train = []
 
 
 img_ar_file = file_io.FileIO(img_arr_path, mode='rb')
-#file = open("galaxy.pkl", 'rb')
 
 X_traing = pickle.load(img_ar_file, encoding='bytes')
 
-'''
-imgs = glob("images")
 
-for img in tqdm(imgs):
-	image = Image.open(img).convert("RGB")
-	image = np.array(image)
-	image = image.astype('float32')
-	image = image / 255
-	X_train.append(image)
-X_train = np.array(X_train)
-print(X_train.shape)
-pickle.dump(X_train, "galaxy.pkl", protocol =4)
-'''
 ##############################   MODEL   ################################
 #### def discriminator
 
@@ -83,11 +70,7 @@ generator_model.summary()
 
 ### def adversarial model
 
-'''
-adv_model = Sequential()
-adv_model.add(generator_model)
-adv_model.add(disc_model)
-'''
+
 disc_model.trainable = False
 adv_input = Input(shape=(100,))
 x = generator_model(adv_input)
