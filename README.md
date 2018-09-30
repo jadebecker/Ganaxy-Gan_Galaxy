@@ -5,8 +5,8 @@ GAN model with keras and MNIST datasets
 # Built with
 * [Keras with TensorFlow](https://keras.io/) Use to build model
 * [Numpy](http://www.numpy.org/) Use to build model
-* [PIL](https://pillow.readthedocs.io/en/3.1.x/index.html) Use to load ans save images
-
+* [PIL](https://pillow.readthedocs.io/en/3.1.x/index.html) Use to load and save images
+* [Pickle](https://docs.python.org/3/library/pickle.html) Use to load and save images
 
 # Running
 
