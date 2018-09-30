@@ -1,5 +1,5 @@
-# Gan-MNIST
-GAN model with keras and MNIST datasets
+# Gan-Galaxy
+GAN model with keras and Galaxy datasets
 
 
 # Built with
